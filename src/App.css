@@ -183,3 +183,11 @@ button {
   font-size: 25px;
 }
 
+/* Footer */
+
+.FooterContainer {
+
+  color: black;
+  font-weight: bold;
+}
+
