@@ -76,6 +76,11 @@ button {
   text-align: center;
 }
 
+.SimulatorContainer h3 {
+  font-size: 20px;
+  color: black;
+}
+
 .CalculatorContainer {
   display: flex;
   flex-direction: column;
@@ -177,3 +182,4 @@ button {
   font-weight: bold;
   font-size: 25px;
 }
+
