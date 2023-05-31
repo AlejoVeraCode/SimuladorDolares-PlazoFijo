@@ -57,11 +57,14 @@ const SimuladorPlazoFijo = () => {
   return (
     <div className="SimulatorContainer">
       <h1 className="SimulatorTitle">Simulador de Plazo Fijo</h1>
+      <br/>
+      <h3>Modo de uso: Ingresar el valor en pesos que depositaremos en el plazo fijo e ingresar el TNA que nos dara el banco. Ej: 50000$ y la TNA en Argentina es de 97%</h3>
       <div>
         <label className="SimulatorLabel">Monto inicial:</label>
         <input
           type="number"
           className="SimulatorInput"
+          placeholder="Ingresar monto inicial"
           value={montoInicial}
           onChange={(e) => setMontoInicial(parseFloat(e.target.value))}
         />
@@ -71,6 +74,7 @@ const SimuladorPlazoFijo = () => {
         <input
           type="number"
           className="SimulatorInput"
+          placeholder="Tasa sugerida Argentina 97%"
           value={tasaInteresAnual}
           onChange={(e) => setTasaInteresAnual(parseFloat(e.target.value))}
         />
@@ -105,3 +109,4 @@ const SimuladorPlazoFijo = () => {
 };
 
 export default SimuladorPlazoFijo;
+
